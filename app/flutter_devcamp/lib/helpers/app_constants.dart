@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class AppConstants {
-  static const String appPrimaryColor = "#026be4";
+  static const String appPrimaryColor = "#29b6f6";
   static const String appBackgroundColor = "#F6F8F9";
   static const String appBackgroundColorWhite = "#FFFFFF";
   static const String appPrimaryColorLight = "#9f9f9f";
@@ -18,4 +18,6 @@ class AppConstants {
   static Color hexToColor(String code) {
     return Color(int.parse(code.substring(1, 7), radix: 16) + 0xFF000000);
   }
+
+  static const List items = ["Attractions", "Places", "Hotels"];
 }

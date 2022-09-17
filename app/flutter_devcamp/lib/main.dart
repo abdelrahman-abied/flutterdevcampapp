@@ -1,6 +1,7 @@
 import 'dart:developer';
 
 import 'package:flutter/material.dart';
+import 'package:flutter_devcamp/screens/home_view.dart';
 import 'package:intl/intl.dart';
 
 import 'helpers/app_constants.dart';
@@ -32,7 +33,8 @@ class MyApp extends StatelessWidget {
                   AppConstants.appPrimaryFontColorWhite)),
         ),
       ),
-      home: const MyHomePage(title: 'FlutterDevcamp - 2022 - Welcome'),
+      home: HomeView(),
+      // home: const MyHomePage(title: 'FlutterDevcamp - 2022 - Welcome'),
     );
   }
 }
